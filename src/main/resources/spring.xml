@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context.xsd ">
+    <context:property-placeholder location="dragon.properties"/>
+
+    <!--start 服务端配置-->
+    <context:component-scan base-package="com.cxt.service.impl"/>
+
+    <bean id="zookeeperRegistry" class="com.cxt.registry.impl.ZookeeperRegistry">
+        <constructor-arg name="zkAddress" value="${rpc.zk_address}"/>
+    </bean>
+
+    <bean id="rpcServer" class="com.cxt.server.RpcServer">
+        <constructor-arg name="serviceAddresss" value="${rpc.service_address}"/>
+        <constructor-arg name="zookeeperRegistry" ref="zookeeperRegistry"/>
+    </bean>
+    <!--end 服务端配置-->
+
+    <!--start 客户端的配置-->
+    <bean id="zookeeperDiscover" class="com.cxt.registry.impl.ZookeeperDiscover">
+        <constructor-arg name="zkAddress" value="${rpc.zk_address}"/>
+    </bean>
+    <bean id="rpcProxy" class="com.cxt.client.RpcProxy">
+        <constructor-arg type="com.cxt.registry.ServiceDiscover" ref="zookeeperDiscover"/>
+    </bean>
+    <!--end 客户端的配置-->
+</beans>

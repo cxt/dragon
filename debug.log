@@ -1,0 +1,3 @@
+2018-01-23 16:52:36  [ main-SendThread(127.0.0.1:2181):302 ] - [ WARN ]  Connected to an old server; r-o mode will be unavailable
+[WARN][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:53:40 method:org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:139)
+Connected to an old server; r-o mode will be unavailable

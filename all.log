@@ -1,0 +1,392 @@
+[WARN][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:54:04 method:org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:139)
+Connected to an old server; r-o mode will be unavailable
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 16:55:13 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=172.28.19.48
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Java\jdk1.8.0_131\jre
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\plugins\junit\lib\junit-rt.jar;C:\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-64.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Java\jdk1.8.0_131\jre\lib\rt.jar;F:\dragon\target\test-classes;F:\dragon\target\classes;D:\maven_repository\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;D:\maven_repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar;D:\maven_repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven_repository\org\springframework\spring-context\4.1.5.RELEASE\spring-context-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-aop\4.1.5.RELEASE\spring-aop-4.1.5.RELEASE.jar;D:\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maven_repository\org\springframework\spring-beans\4.1.5.RELEASE\spring-beans-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-core\4.1.5.RELEASE\spring-core-4.1.5.RELEASE.jar;D:\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven_repository\org\springframework\spring-expression\4.1.5.RELEASE\spring-expression-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-test\4.1.5.RELEASE\spring-test-4.1.5.RELEASE.jar;D:\maven_repository\io\netty\netty-all\4.0.26.Final\netty-all-4.0.26.Final.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-core\1.0.9\protostuff-core-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-api\1.0.9\protostuff-api-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-runtime\1.0.9\protostuff-runtime-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-collectionschema\1.0.9\protostuff-collectionschema-1.0.9.jar;D:\maven_repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven_repository\cglib\cglib\3.1\cglib-3.1.jar;D:\maven_repository\org\ow2\asm\asm\4.2\asm-4.2.jar;D:\maven_repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven_repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven_repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven_repository\com\101tec\zkclient\0.4\zkclient-0.4.jar;D:\maven_repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;D:\maven_repository\org\apache\commons\commons-collections4\4.0\commons-collections4-4.0.jar;D:\maven_repository\junit\junit\4.8.1\junit-4.8.1.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;E:\apache-maven-3.3.9\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 7
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=6.1
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Administrator
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\dragon
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@768debd
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:55:13 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:975)
+Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:55:13 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:852)
+Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+[WARN][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:55:13 method:org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:139)
+Connected to an old server; r-o mode will be unavailable
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:55:13 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1235)
+Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x160c059c3f600a5, negotiated timeout = 5000
+[INFO][main-EventThread] 2018-01-23 16:55:13 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 16:55:13 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:82)
+Terminate ZkClient event thread.
+[INFO][main] 2018-01-23 16:55:13 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:684)
+Session: 0x160c059c3f600a5 closed
+[INFO][main-EventThread] 2018-01-23 16:55:13 method:org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:512)
+EventThread shut down
+[DEBUG][main] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkConnection.connect(ZkConnection.java:63)
+Creating new ZookKeeper instance to connect to 127.0.0.1:2181.
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=172.28.19.48
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Java\jdk1.8.0_131\jre
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\plugins\junit\lib\junit-rt.jar;C:\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-64.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Java\jdk1.8.0_131\jre\lib\rt.jar;F:\dragon\target\test-classes;F:\dragon\target\classes;D:\maven_repository\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;D:\maven_repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar;D:\maven_repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven_repository\org\springframework\spring-context\4.1.5.RELEASE\spring-context-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-aop\4.1.5.RELEASE\spring-aop-4.1.5.RELEASE.jar;D:\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maven_repository\org\springframework\spring-beans\4.1.5.RELEASE\spring-beans-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-core\4.1.5.RELEASE\spring-core-4.1.5.RELEASE.jar;D:\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven_repository\org\springframework\spring-expression\4.1.5.RELEASE\spring-expression-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-test\4.1.5.RELEASE\spring-test-4.1.5.RELEASE.jar;D:\maven_repository\io\netty\netty-all\4.0.26.Final\netty-all-4.0.26.Final.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-core\1.0.9\protostuff-core-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-api\1.0.9\protostuff-api-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-runtime\1.0.9\protostuff-runtime-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-collectionschema\1.0.9\protostuff-collectionschema-1.0.9.jar;D:\maven_repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven_repository\cglib\cglib\3.1\cglib-3.1.jar;D:\maven_repository\org\ow2\asm\asm\4.2\asm-4.2.jar;D:\maven_repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven_repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven_repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven_repository\com\101tec\zkclient\0.4\zkclient-0.4.jar;D:\maven_repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;D:\maven_repository\org\apache\commons\commons-collections4\4.0\commons-collections4-4.0.jar;D:\maven_repository\junit\junit\4.8.1\junit-4.8.1.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;E:\apache-maven-3.3.9\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 7
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=6.1
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Administrator
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\dragon
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@768debd
+[DEBUG][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn.<clinit>(ClientCnxn.java:102)
+zookeeper.disableAutoWatchReset is false
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:975)
+Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:852)
+Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+[DEBUG][main] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:893)
+Awaiting connection to Zookeeper server
+[DEBUG][main] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkClient.waitForKeeperState(ZkClient.java:643)
+Waiting for keeper state SyncConnected
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:892)
+Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+[WARN][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:139)
+Connected to an old server; r-o mode will be unavailable
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1235)
+Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x160c059c3f600a6, negotiated timeout = 5000
+[DEBUG][main-EventThread] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkClient.process(ZkClient.java:351)
+Received event: WatchedEvent state:SyncConnected type:None path:null
+[INFO][main-EventThread] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+[DEBUG][main-EventThread] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkClient.process(ZkClient.java:395)
+Leaving process event
+[DEBUG][main] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkClient.waitForKeeperState(ZkClient.java:653)
+State is SyncConnected
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:818)
+Reading reply sessionid:0x160c059c3f600a6, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,354,0  request:: '/registry/test,F  response:: v{} 
+[DEBUG][main] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkClient.close(ZkClient.java:934)
+Closing ZkClient...
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:82)
+Terminate ZkClient event thread.
+[DEBUG][main] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkConnection.close(ZkConnection.java:77)
+Closing ZooKeeper connected to 127.0.0.1:2181
+[DEBUG][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:673)
+Closing session: 0x160c059c3f600a6
+[DEBUG][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn.close(ClientCnxn.java:1306)
+Closing client for session: 0x160c059c3f600a6
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:818)
+Reading reply sessionid:0x160c059c3f600a6, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,355,0  request:: null response:: null
+[DEBUG][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.ClientCnxn.disconnect(ClientCnxn.java:1290)
+Disconnecting client for session: 0x160c059c3f600a6
+[INFO][main] 2018-01-23 16:56:05 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:684)
+Session: 0x160c059c3f600a6 closed
+[DEBUG][main] 2018-01-23 16:56:05 method:org.I0Itec.zkclient.ZkClient.close(ZkClient.java:947)
+Closing ZkClient...done
+[DEBUG][main] 2018-01-23 17:05:30 method:org.I0Itec.zkclient.ZkConnection.connect(ZkConnection.java:63)
+Creating new ZookKeeper instance to connect to 127.0.0.1:2181.
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 17:05:30 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=172.28.19.48
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Java\jdk1.8.0_131\jre
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\plugins\junit\lib\junit-rt.jar;C:\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-64.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Java\jdk1.8.0_131\jre\lib\rt.jar;F:\dragon\target\test-classes;F:\dragon\target\classes;D:\maven_repository\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;D:\maven_repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar;D:\maven_repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven_repository\org\springframework\spring-context\4.1.5.RELEASE\spring-context-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-aop\4.1.5.RELEASE\spring-aop-4.1.5.RELEASE.jar;D:\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maven_repository\org\springframework\spring-beans\4.1.5.RELEASE\spring-beans-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-core\4.1.5.RELEASE\spring-core-4.1.5.RELEASE.jar;D:\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven_repository\org\springframework\spring-expression\4.1.5.RELEASE\spring-expression-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-test\4.1.5.RELEASE\spring-test-4.1.5.RELEASE.jar;D:\maven_repository\io\netty\netty-all\4.0.26.Final\netty-all-4.0.26.Final.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-core\1.0.9\protostuff-core-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-api\1.0.9\protostuff-api-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-runtime\1.0.9\protostuff-runtime-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-collectionschema\1.0.9\protostuff-collectionschema-1.0.9.jar;D:\maven_repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven_repository\cglib\cglib\3.1\cglib-3.1.jar;D:\maven_repository\org\ow2\asm\asm\4.2\asm-4.2.jar;D:\maven_repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven_repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven_repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven_repository\com\101tec\zkclient\0.4\zkclient-0.4.jar;D:\maven_repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;D:\maven_repository\org\apache\commons\commons-collections4\4.0\commons-collections4-4.0.jar;D:\maven_repository\junit\junit\4.8.1\junit-4.8.1.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;E:\apache-maven-3.3.9\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 7
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=6.1
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Administrator
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\dragon
+[INFO][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@768debd
+[DEBUG][main] 2018-01-23 17:05:30 method:org.apache.zookeeper.ClientCnxn.<clinit>(ClientCnxn.java:102)
+zookeeper.disableAutoWatchReset is false
+[DEBUG][main] 2018-01-23 17:05:30 method:org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:893)
+Awaiting connection to Zookeeper server
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:975)
+Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[DEBUG][main] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkClient.waitForKeeperState(ZkClient.java:643)
+Waiting for keeper state SyncConnected
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:852)
+Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:892)
+Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+[WARN][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:139)
+Connected to an old server; r-o mode will be unavailable
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1235)
+Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x160c059c3f600a7, negotiated timeout = 5000
+[DEBUG][main-EventThread] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkClient.process(ZkClient.java:351)
+Received event: WatchedEvent state:SyncConnected type:None path:null
+[INFO][main-EventThread] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+[DEBUG][main-EventThread] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkClient.process(ZkClient.java:395)
+Leaving process event
+[DEBUG][main] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkClient.waitForKeeperState(ZkClient.java:653)
+State is SyncConnected
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:818)
+Reading reply sessionid:0x160c059c3f600a7, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,356,0  request:: '/registry/test,F  response:: v{} 
+[DEBUG][main] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkClient.close(ZkClient.java:934)
+Closing ZkClient...
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:82)
+Terminate ZkClient event thread.
+[DEBUG][main] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkConnection.close(ZkConnection.java:77)
+Closing ZooKeeper connected to 127.0.0.1:2181
+[DEBUG][main] 2018-01-23 17:05:31 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:673)
+Closing session: 0x160c059c3f600a7
+[DEBUG][main] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn.close(ClientCnxn.java:1306)
+Closing client for session: 0x160c059c3f600a7
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:818)
+Reading reply sessionid:0x160c059c3f600a7, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,357,0  request:: null response:: null
+[DEBUG][main] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn.disconnect(ClientCnxn.java:1290)
+Disconnecting client for session: 0x160c059c3f600a7
+[INFO][main] 2018-01-23 17:05:31 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:684)
+Session: 0x160c059c3f600a7 closed
+[DEBUG][main] 2018-01-23 17:05:31 method:org.I0Itec.zkclient.ZkClient.close(ZkClient.java:947)
+Closing ZkClient...done
+[ERROR][main] 2018-01-23 17:05:31 method:ZookeeperTest.testDiscover(ZookeeperTest.java:28)
+test
+[INFO][main-EventThread] 2018-01-23 17:05:31 method:org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:512)
+EventThread shut down
+[DEBUG][main] 2018-01-23 17:31:50 method:org.I0Itec.zkclient.ZkConnection.connect(ZkConnection.java:63)
+Creating new ZookKeeper instance to connect to 127.0.0.1:2181.
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 17:31:50 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=172.28.19.48
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Java\jdk1.8.0_131\jre
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\plugins\junit\lib\junit-rt.jar;C:\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-64.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Java\jdk1.8.0_131\jre\lib\rt.jar;F:\dragon\target\test-classes;F:\dragon\target\classes;D:\maven_repository\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;D:\maven_repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar;D:\maven_repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven_repository\org\springframework\spring-context\4.1.5.RELEASE\spring-context-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-aop\4.1.5.RELEASE\spring-aop-4.1.5.RELEASE.jar;D:\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maven_repository\org\springframework\spring-beans\4.1.5.RELEASE\spring-beans-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-core\4.1.5.RELEASE\spring-core-4.1.5.RELEASE.jar;D:\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven_repository\org\springframework\spring-expression\4.1.5.RELEASE\spring-expression-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-test\4.1.5.RELEASE\spring-test-4.1.5.RELEASE.jar;D:\maven_repository\io\netty\netty-all\4.0.26.Final\netty-all-4.0.26.Final.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-core\1.0.9\protostuff-core-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-api\1.0.9\protostuff-api-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-runtime\1.0.9\protostuff-runtime-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-collectionschema\1.0.9\protostuff-collectionschema-1.0.9.jar;D:\maven_repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven_repository\cglib\cglib\3.1\cglib-3.1.jar;D:\maven_repository\org\ow2\asm\asm\4.2\asm-4.2.jar;D:\maven_repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven_repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven_repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven_repository\com\101tec\zkclient\0.4\zkclient-0.4.jar;D:\maven_repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;D:\maven_repository\org\apache\commons\commons-collections4\4.0\commons-collections4-4.0.jar;D:\maven_repository\junit\junit\4.8.1\junit-4.8.1.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;E:\apache-maven-3.3.9\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 7
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=6.1
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Administrator
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\dragon
+[INFO][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@768debd
+[DEBUG][main] 2018-01-23 17:31:50 method:org.apache.zookeeper.ClientCnxn.<clinit>(ClientCnxn.java:102)
+zookeeper.disableAutoWatchReset is false
+[DEBUG][main] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:893)
+Awaiting connection to Zookeeper server
+[DEBUG][main] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkClient.waitForKeeperState(ZkClient.java:643)
+Waiting for keeper state SyncConnected
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:975)
+Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:852)
+Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:892)
+Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+[WARN][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:139)
+Connected to an old server; r-o mode will be unavailable
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1235)
+Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x160c059c3f600b1, negotiated timeout = 5000
+[DEBUG][main-EventThread] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkClient.process(ZkClient.java:351)
+Received event: WatchedEvent state:SyncConnected type:None path:null
+[INFO][main-EventThread] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+[DEBUG][main-EventThread] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkClient.process(ZkClient.java:395)
+Leaving process event
+[DEBUG][main] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkClient.waitForKeeperState(ZkClient.java:653)
+State is SyncConnected
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:818)
+Reading reply sessionid:0x160c059c3f600b1, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,377,0  request:: '/registry/test,F  response:: v{} 
+[DEBUG][main] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkClient.close(ZkClient.java:934)
+Closing ZkClient...
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:82)
+Terminate ZkClient event thread.
+[DEBUG][main] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkConnection.close(ZkConnection.java:77)
+Closing ZooKeeper connected to 127.0.0.1:2181
+[DEBUG][main] 2018-01-23 17:31:51 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:673)
+Closing session: 0x160c059c3f600b1
+[DEBUG][main] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn.close(ClientCnxn.java:1306)
+Closing client for session: 0x160c059c3f600b1
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:818)
+Reading reply sessionid:0x160c059c3f600b1, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,378,0  request:: null response:: null
+[DEBUG][main] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn.disconnect(ClientCnxn.java:1290)
+Disconnecting client for session: 0x160c059c3f600b1
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1086)
+An exception was thrown while closing send thread for session 0x160c059c3f600b1 : Unable to read additional data from server sessionid 0x160c059c3f600b1, likely server has closed socket
+[INFO][main-EventThread] 2018-01-23 17:31:51 method:org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:512)
+EventThread shut down
+[INFO][main] 2018-01-23 17:31:51 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:684)
+Session: 0x160c059c3f600b1 closed
+[DEBUG][main] 2018-01-23 17:31:51 method:org.I0Itec.zkclient.ZkClient.close(ZkClient.java:947)
+Closing ZkClient...done
+[ERROR][main] 2018-01-23 17:31:51 method:ZookeeperTest.testDiscover(ZookeeperTest.java:28)
+not has test
+[DEBUG][main] 2018-01-23 17:32:32 method:org.I0Itec.zkclient.ZkConnection.connect(ZkConnection.java:63)
+Creating new ZookKeeper instance to connect to 127.0.0.1:2181.
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 17:32:32 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=172.28.19.48
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_131
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Java\jdk1.8.0_131\jre
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\plugins\junit\lib\junit-rt.jar;C:\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Java\jdk1.8.0_131\jre\lib\deploy.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\access-bridge-64.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\cldrdata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\dnsns.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jaccess.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\jfxrt.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\localedata.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\nashorn.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunec.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunjce_provider.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunmscapi.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\sunpkcs11.jar;C:\Java\jdk1.8.0_131\jre\lib\ext\zipfs.jar;C:\Java\jdk1.8.0_131\jre\lib\javaws.jar;C:\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Java\jdk1.8.0_131\jre\lib\jfxswt.jar;C:\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Java\jdk1.8.0_131\jre\lib\management-agent.jar;C:\Java\jdk1.8.0_131\jre\lib\plugin.jar;C:\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Java\jdk1.8.0_131\jre\lib\rt.jar;F:\dragon\target\test-classes;F:\dragon\target\classes;D:\maven_repository\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;D:\maven_repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar;D:\maven_repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\maven_repository\org\springframework\spring-context\4.1.5.RELEASE\spring-context-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-aop\4.1.5.RELEASE\spring-aop-4.1.5.RELEASE.jar;D:\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maven_repository\org\springframework\spring-beans\4.1.5.RELEASE\spring-beans-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-core\4.1.5.RELEASE\spring-core-4.1.5.RELEASE.jar;D:\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven_repository\org\springframework\spring-expression\4.1.5.RELEASE\spring-expression-4.1.5.RELEASE.jar;D:\maven_repository\org\springframework\spring-test\4.1.5.RELEASE\spring-test-4.1.5.RELEASE.jar;D:\maven_repository\io\netty\netty-all\4.0.26.Final\netty-all-4.0.26.Final.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-core\1.0.9\protostuff-core-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-api\1.0.9\protostuff-api-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-runtime\1.0.9\protostuff-runtime-1.0.9.jar;D:\maven_repository\com\dyuproject\protostuff\protostuff-collectionschema\1.0.9\protostuff-collectionschema-1.0.9.jar;D:\maven_repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\maven_repository\cglib\cglib\3.1\cglib-3.1.jar;D:\maven_repository\org\ow2\asm\asm\4.2\asm-4.2.jar;D:\maven_repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\maven_repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\maven_repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\maven_repository\com\101tec\zkclient\0.4\zkclient-0.4.jar;D:\maven_repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;D:\maven_repository\org\apache\commons\commons-collections4\4.0\commons-collections4-4.0.jar;D:\maven_repository\junit\junit\4.8.1\junit-4.8.1.jar;D:\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Java\jdk1.8.0_131;C:\Program Files\Git\cmd;E:\apache-maven-3.3.9\bin;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 7
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=6.1
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=Administrator
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\Administrator
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=F:\dragon
+[INFO][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@768debd
+[DEBUG][main] 2018-01-23 17:32:32 method:org.apache.zookeeper.ClientCnxn.<clinit>(ClientCnxn.java:102)
+zookeeper.disableAutoWatchReset is false
+[DEBUG][main] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:893)
+Awaiting connection to Zookeeper server
+[DEBUG][main] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkClient.waitForKeeperState(ZkClient.java:643)
+Waiting for keeper state SyncConnected
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:975)
+Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:852)
+Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:892)
+Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+[WARN][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxnSocket.readConnectResult(ClientCnxnSocket.java:139)
+Connected to an old server; r-o mode will be unavailable
+[INFO][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1235)
+Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x160c059c3f600b2, negotiated timeout = 5000
+[DEBUG][main-EventThread] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkClient.process(ZkClient.java:351)
+Received event: WatchedEvent state:SyncConnected type:None path:null
+[INFO][main-EventThread] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+[DEBUG][main-EventThread] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkClient.process(ZkClient.java:395)
+Leaving process event
+[DEBUG][main] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkClient.waitForKeeperState(ZkClient.java:653)
+State is SyncConnected
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:818)
+Reading reply sessionid:0x160c059c3f600b2, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,379,0  request:: '/registry/test,F  response:: v{} 
+[DEBUG][main] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkClient.close(ZkClient.java:934)
+Closing ZkClient...
+[INFO][ZkClient-EventThread-11-127.0.0.1:2181] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:82)
+Terminate ZkClient event thread.
+[DEBUG][main] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkConnection.close(ZkConnection.java:77)
+Closing ZooKeeper connected to 127.0.0.1:2181
+[DEBUG][main] 2018-01-23 17:32:33 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:673)
+Closing session: 0x160c059c3f600b2
+[DEBUG][main] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn.close(ClientCnxn.java:1306)
+Closing client for session: 0x160c059c3f600b2
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:818)
+Reading reply sessionid:0x160c059c3f600b2, packet:: clientPath:null serverPath:null finished:false header:: 2,-11  replyHeader:: 2,380,0  request:: null response:: null
+[DEBUG][main-SendThread(127.0.0.1:2181)] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1086)
+An exception was thrown while closing send thread for session 0x160c059c3f600b2 : Unable to read additional data from server sessionid 0x160c059c3f600b2, likely server has closed socket
+[DEBUG][main] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn.disconnect(ClientCnxn.java:1290)
+Disconnecting client for session: 0x160c059c3f600b2
+[INFO][main] 2018-01-23 17:32:33 method:org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:684)
+Session: 0x160c059c3f600b2 closed
+[DEBUG][main] 2018-01-23 17:32:33 method:org.I0Itec.zkclient.ZkClient.close(ZkClient.java:947)
+Closing ZkClient...done
+[ERROR][main] 2018-01-23 17:32:33 method:ZookeeperTest.testDiscover(ZookeeperTest.java:28)
+not has test
+[INFO][main-EventThread] 2018-01-23 17:32:33 method:org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:512)
+EventThread shut down
+[ERROR][main] 2018-01-23 17:39:49 method:com.cxt.registry.impl.ZookeeperRegistry.register(ZookeeperRegistry.java:38)
+create zk node /registry/test/address-0000000006
+[ERROR][main] 2018-01-23 17:40:15 method:com.cxt.registry.impl.ZookeeperRegistry.register(ZookeeperRegistry.java:38)
+create zk node /registry/test/address-0000000008
